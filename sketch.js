@@ -56,7 +56,7 @@ function setup() {
   ball = Bodies.circle(100 , 100 ,20,{restitution:0.5, isStatic:false});
 	World.add(world, ball);
 
-  chain = new Slingshot (this.ball,{x :100,y:100});
+  chain = new Slingshot (this.ball,{x :200,y:150});
 	
   Engine.run(engine);
   
